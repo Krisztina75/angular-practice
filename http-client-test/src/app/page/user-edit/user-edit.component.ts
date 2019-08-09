@@ -16,12 +16,14 @@ export class UserEditComponent implements OnInit {
     private ar: ActivatedRoute,
     private userService: UserService
   ) {
-    this.ar.params.forEach(           
+    this.ar.params.forEach(
       params => {
-        console.log(params);
-        this.user = this.userService.get(params.id)
+        this.userService.getAll().forEach(
+          userArray => this.user = userArray.filter(
+            u => u.id == params.id)[0]
+        )
       }
-    );
+    )
   }
 
   ngOnInit() {

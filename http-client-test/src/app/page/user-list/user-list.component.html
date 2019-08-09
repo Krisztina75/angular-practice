@@ -35,6 +35,12 @@
             <td>{{ user.age }}</td>
             <td>{{ user.email }}</td>
             <td>{{ user.phone }}</td>
+            <td>
+              <div class="btn-group">
+                <button routerLink="/users/{{ user.id }}" class="btn btn-info">update</button>
+                <button class="btn btn-danger" (click)="deleteFilm(film)">delete</button>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>

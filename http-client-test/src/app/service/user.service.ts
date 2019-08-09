@@ -8,6 +8,7 @@ import { User } from '../model/user';
 })
 export class UserService {
   jsonUrl: string = 'http://localhost:3000/user';
+  list: User[] = [];
 
   constructor(
     private http: HttpClient
@@ -22,7 +23,7 @@ export class UserService {
   create(user: User): Observable<User> {
     return this.http.post<User>(
       this.jsonUrl,
-      user);   //ezt az Angular átalakítja json stringgé és úgy küldi (nem nekünk kell lekódolni, hogy úgy menjen)
+      user);
   }
 
   //Update:
@@ -36,5 +37,9 @@ export class UserService {
   remove(id: number): Observable<User> {
     return this.http.delete<User>(
       `${this.jsonUrl}/${id}`);
+  }
+
+  get(id: number): User {
+    return this.list.filter(user => user.id == id)[0] || new User();
   }
 }

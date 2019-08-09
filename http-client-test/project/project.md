@@ -4,7 +4,7 @@
 Alkalmazd a Bootstrap vagy Bootswatch stílusokat az oldalon. (FontAwesome használata)
 
 ## Navigáció
-Hozz létre egy navigációs kompnenset és helyezd el minden oldalon 
+Hozz létre egy navigációs komponenset és helyezd el minden oldalon 
 a lap tetején. Linkek: Home, Users, About(opcionális)
 
 ## Router

@@ -4,14 +4,37 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { IndexComponent } from './page/index/index.component';
+import { UserListComponent } from './page/user-list/user-list.component';
+import { UserEditComponent } from './page/user-edit/user-edit.component';
+import { NavComponent } from './nav/nav.component';
 
 const appRoutes: Routes = [
-
+  {
+    path: "",
+    component: IndexComponent
+  },
+  {
+    path: "users",
+    component: UserListComponent
+  },
+  {
+    path: "users/:id",
+    component: UserEditComponent
+  },
+  {
+    path: "**",
+    component: IndexComponent
+  }
 ];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IndexComponent,
+    UserListComponent,
+    UserEditComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

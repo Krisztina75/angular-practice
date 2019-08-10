@@ -26,6 +26,10 @@ const appRoutes: Routes = [
     component: UserEditComponent
   },
   {
+    path: "newUser",
+    component: UserEditComponent
+  },
+  {
     path: "**",
     component: IndexComponent
   }

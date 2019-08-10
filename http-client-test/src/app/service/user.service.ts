@@ -40,7 +40,7 @@ export class UserService {
   }
 
   get(id: number): User {
-    return this.list.filter(user => user.id == id)[0] || new User();
+    return this.list.filter(user => user.id == id)[0];
   }
 }
 

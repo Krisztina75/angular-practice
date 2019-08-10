@@ -27,8 +27,9 @@
         </thead>
 
         <tbody>
-          <tr
-            *ngFor="let user of userList | filter:filterPhrase:changeCounter | order:orderKey:orderDirection:changeCounter">
+          <tr *ngFor="let user of userList | 
+                                  filter:filterPhrase:changeCounter | 
+                                  order:orderKey:orderDirection:changeCounter">
             <td>{{ user.id }}</td>
             <td>{{ user.name.last }} {{ user.name.first }}</td>
             <td>{{ user.isActive }}</td>

@@ -20,7 +20,7 @@ export class UserListComponent implements OnInit, OnDestroy {
   changeCounter: number = 0;
 
   constructor(
-    private userService: UserService
+    private userService: UserService,
   ) { }
 
   ngOnInit() {

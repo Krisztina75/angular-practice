@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/model/user';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { UserService } from 'src/app/service/user.service';
 
 @Component({
@@ -14,16 +14,23 @@ export class UserEditComponent implements OnInit {
 
   constructor(
     private ar: ActivatedRoute,
+    private router: Router,
     private userService: UserService
   ) {
-    this.ar.params.forEach(
-      params => {
-        this.userService.getAll().forEach(
-          userArray => this.user = userArray.filter(
-            u => u.id == params.id)[0]
-        )
-      }
-    )
+    // this.ar.params.forEach(
+    //   params => {
+    //     this.userService.getAll().forEach(
+    //       userArray => this.user = userArray.filter(
+    //         u => u.id == params.id)[0]
+    //     )
+    //   }
+    // )
+
+    this.ar.params.subscribe(params => {
+      this.userService.get(params.id).forEach(user => {     //itt a forEach-re panaszkodik
+        this.user = user
+      })
+    })
   }
 
   ngOnInit() {
@@ -31,5 +38,6 @@ export class UserEditComponent implements OnInit {
 
   onSubmit(ev: Event): void {
     ev.preventDefault();
+    this.router.navigateByUrl('/users');
   }
 }

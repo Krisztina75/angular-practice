@@ -4,8 +4,12 @@
       <h1>Edit User</h1>
       <form (submit)="onSubmit($event)" action="">
         <div class="form-group">
-          <label for="">Name</label>
-          <input name="name" [(ngModel)]="user.name" type="text" class="form-control">
+          <label for="">First name</label>
+          <input name="first" [(ngModel)]="user.name.first" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Last name</label>
+          <input name="last" [(ngModel)]="user.name.last" type="text" class="form-control">
         </div>
         <div class="form-group">
           <label for="">Active</label>

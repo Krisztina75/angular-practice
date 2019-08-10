@@ -19,6 +19,12 @@ export class UserService {
     return this.http.get<User[]>(this.jsonUrl);
   }
 
+  //Read:
+  getOne(id: number): Observable<User> {
+    return this.http.get<User>(
+      `${this.jsonUrl}/${id}`);
+  }
+
   //Create:
   create(user: User): Observable<User> {
     return this.http.post<User>(
@@ -37,10 +43,6 @@ export class UserService {
   remove(id: number): Observable<User> {
     return this.http.delete<User>(
       `${this.jsonUrl}/${id}`);
-  }
-
-  get(id: number): User {
-    return this.list.filter(user => user.id == id)[0];
   }
 }
 

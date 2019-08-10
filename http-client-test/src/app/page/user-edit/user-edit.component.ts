@@ -17,17 +17,9 @@ export class UserEditComponent implements OnInit {
     private router: Router,
     private userService: UserService
   ) {
-    // this.ar.params.forEach(
-    //   params => {
-    //     this.userService.getAll().forEach(
-    //       userArray => this.user = userArray.filter(
-    //         u => u.id == params.id)[0]
-    //     )
-    //   }
-    // )
 
     this.ar.params.subscribe(params => {
-      this.userService.get(params.id).forEach(user => {     //itt a forEach-re panaszkodik
+      this.userService.getOne(params.id).forEach(user => {
         this.user = user
       })
     })

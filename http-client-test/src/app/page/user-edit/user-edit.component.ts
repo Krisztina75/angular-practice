@@ -10,9 +10,6 @@ import { UserService } from 'src/app/service/user.service';
 })
 export class UserEditComponent implements OnInit {
   user: User = new User();
-  newUser = new User();
-  userList: User[] = [];
-  changeCounter: number = 0;
 
   constructor(
     private ar: ActivatedRoute,
@@ -33,23 +30,15 @@ export class UserEditComponent implements OnInit {
   onSubmit(ev: Event): void {
 
     ev.preventDefault();
-    this.router.navigateByUrl('/users');
+
     if (this.user.id !== 0) {
       this.userService.update(this.user).subscribe(
-        response => this.changeCounter++,
-        err => console.log(err)
+        response => this.router.navigateByUrl('/users')
       );
+    } else {
+      this.userService.create(this.user).forEach(
+        response => this.router.navigateByUrl('/users')
+      )
     }
-
-    // if (this.user.id === 0) {                                //ez még nem működik
-    //   this.userService.create(this.newUser).subscribe(
-    //     user => {
-    //       this.userList.push(user);
-    //       this.newUser = new User();
-    //       this.changeCounter++;
-    //     },
-    //     err => console.log(err)
-    //   )
-    // }
   }
 }

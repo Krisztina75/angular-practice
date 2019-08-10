@@ -1,174 +1,6 @@
 {
   "user": [
     {
-      "id": 1,
-      "guid": "99d82648-a621-4272-bb03-9dfae4ce570f",
-      "isActive": true,
-      "balance": "$1,442.75",
-      "picture": "http://placehold.it/32x32",
-      "age": 25,
-      "eyeColor": "brown",
-      "name": {
-        "first": "Susana",
-        "last": "Spencer"
-      },
-      "company": "OVIUM",
-      "email": "susana.spencer@ovium.us",
-      "phone": "+1 (887) 447-2859",
-      "address": "575 Village Road, Bascom, Pennsylvania, 238",
-      "about": "Officia magna eiusmod occaecat magna enim sunt eiusmod irure ex cillum enim. Velit id labore reprehenderit irure nisi. Occaecat ad Lorem est ullamco sint aliquip qui duis ea anim. Cupidatat excepteur incididunt laboris adipisicing anim sunt voluptate pariatur aliquip nulla incididunt nostrud qui. Dolor dolore irure amet commodo consectetur sit amet deserunt. Ex quis officia magna culpa. Pariatur ipsum consectetur labore fugiat id mollit esse.",
-      "registered": "Monday, April 8, 2019 9:57 AM",
-      "latitude": "77.805747",
-      "longitude": "4.793616",
-      "tags": [
-        "eu",
-        "irure",
-        "nulla",
-        "in",
-        "ea"
-      ],
-      "range": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Downs Buckner"
-        },
-        {
-          "id": 1,
-          "name": "Richmond Bennett"
-        },
-        {
-          "id": 2,
-          "name": "Weber Moreno"
-        }
-      ],
-      "greeting": "Hello, Susana! You have 10 unread messages.",
-      "favoriteFruit": "apple"
-    },
-    {
-      "id": 2,
-      "guid": "4305c061-5a48-44d5-a13d-b9df034bbb63",
-      "isActive": "false",
-      "balance": "$3,721.38",
-      "picture": "http://placehold.it/32x32",
-      "age": 33,
-      "eyeColor": "blue",
-      "name": {
-        "first": "Strong",
-        "last": "Bird"
-      },
-      "company": "AQUACINE",
-      "email": "strong.bird@aquacine.co.uk",
-      "phone": "+1 (930) 454-3771",
-      "address": "682 Portal Street, Avoca, Florida, 7461",
-      "about": "Mollit quis eiusmod incididunt eu quis consequat enim esse qui exercitation. Ipsum nulla ipsum non nulla irure ad. Velit voluptate magna adipisicing labore aute sunt eiusmod cillum ea laboris ad esse ullamco. Ea cupidatat minim cupidatat incididunt minim fugiat ex aute do consectetur do. Fugiat eiusmod pariatur minim sit officia ullamco in amet tempor veniam.",
-      "registered": "Sunday, January 6, 2019 11:37 PM",
-      "latitude": "8.739803",
-      "longitude": "170.54748",
-      "tags": [
-        "sit",
-        "pariatur",
-        "aliquip",
-        "laborum",
-        "incididunt"
-      ],
-      "range": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Lina Jefferson"
-        },
-        {
-          "id": 1,
-          "name": "Terry Rowe"
-        },
-        {
-          "id": 2,
-          "name": "Dalton Tucker"
-        }
-      ],
-      "greeting": "Hello, Strong! You have 10 unread messages.",
-      "favoriteFruit": "strawberry"
-    },
-    {
-      "id": 3,
-      "guid": "93ed9f6d-f331-4b2c-92ec-5cf014641ec7",
-      "isActive": true,
-      "balance": "$3,590.16",
-      "picture": "http://placehold.it/32x32",
-      "age": 35,
-      "eyeColor": "green",
-      "name": {
-        "first": "Rodriguez",
-        "last": "Myers"
-      },
-      "company": "QNEKT",
-      "email": "rodriguez.myers@qnekt.io",
-      "phone": "+1 (969) 569-3985",
-      "address": "316 Bayview Place, Dola, North Carolina, 8372",
-      "about": "Lorem sit tempor nisi enim officia commodo est nulla mollit nostrud cillum. Duis ex aliquip excepteur veniam. Voluptate non veniam eiusmod fugiat. Voluptate consectetur duis elit commodo. Officia dolor eiusmod ea ad. Deserunt id laboris in aute amet in laboris aliqua irure eu.",
-      "registered": "Sunday, October 11, 2015 2:18 PM",
-      "latitude": "61.450384",
-      "longitude": "126.010631",
-      "tags": [
-        "qui",
-        "et",
-        "ex",
-        "est",
-        "aliqua"
-      ],
-      "range": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Donaldson Meyers"
-        },
-        {
-          "id": 1,
-          "name": "Juliana Ayers"
-        },
-        {
-          "id": 2,
-          "name": "Ollie Gillespie"
-        }
-      ],
-      "greeting": "Hello, Rodriguez! You have 10 unread messages.",
-      "favoriteFruit": "strawberry"
-    },
-    {
       "id": 4,
       "guid": "4a64efc2-f5f5-4e5a-bd0a-01d808953ff2",
       "isActive": true,
@@ -177,7 +9,7 @@
       "age": 34,
       "eyeColor": "brown",
       "name": {
-        "first": "Margie",
+        "first": "Margerie",
         "last": "Wilkinson"
       },
       "company": "GLASSTEP",
@@ -5599,6 +5431,94 @@
       ],
       "greeting": "Hello, Carlson! You have 6 unread messages.",
       "favoriteFruit": "strawberry"
+    },
+    {
+      "id": 101,
+      "name": {
+        "first": "Roberts",
+        "last": "Julia"
+      },
+      "isActive": false,
+      "age": "52",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": 102,
+      "name": {
+        "first": "Susan",
+        "last": "Sarandon"
+      },
+      "isActive": false,
+      "age": "62",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": 103,
+      "name": {
+        "first": "Lóránt",
+        "last": "Lajos"
+      },
+      "isActive": "true",
+      "age": "30",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": 104,
+      "name": {
+        "first": "Hopkins",
+        "last": "Anthony"
+      },
+      "isActive": false,
+      "age": "65",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": 105,
+      "name": {
+        "first": "Godzilla",
+        "last": ""
+      },
+      "isActive": false,
+      "age": 18,
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": 106,
+      "name": {
+        "first": "Popkins",
+        "last": "Mary"
+      },
+      "isActive": false,
+      "age": "50",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": 107,
+      "name": {
+        "first": "Lajos-Kovács",
+        "last": "Krisztina"
+      },
+      "isActive": "true",
+      "age": "43",
+      "email": "kovacskrisztinamonika@gmail.com",
+      "phone": "+36204523333"
+    },
+    {
+      "id": 108,
+      "name": {
+        "first": "Dániel",
+        "last": "Szabó"
+      },
+      "isActive": false,
+      "age": "30",
+      "email": "",
+      "phone": ""
     }
   ]
 }

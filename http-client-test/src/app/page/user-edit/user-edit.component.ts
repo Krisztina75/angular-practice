@@ -9,8 +9,8 @@ import { UserService } from 'src/app/service/user.service';
   styleUrls: ['./user-edit.component.css']
 })
 export class UserEditComponent implements OnInit {
-
   user: User = new User();
+  changeCounter: number = 0;
 
   constructor(
     private ar: ActivatedRoute,
@@ -31,5 +31,11 @@ export class UserEditComponent implements OnInit {
   onSubmit(ev: Event): void {
     ev.preventDefault();
     this.router.navigateByUrl('/users');
+    this.userService.update(this.user).subscribe(
+      response => {
+        this.changeCounter++;
+      },
+      err => console.log(err)
+    )
   }
 }

@@ -1,62 +1,6 @@
 {
   "user": [
     {
-      "id": 4,
-      "guid": "4a64efc2-f5f5-4e5a-bd0a-01d808953ff2",
-      "isActive": true,
-      "balance": "$1,090.44",
-      "picture": "http://placehold.it/32x32",
-      "age": 34,
-      "eyeColor": "brown",
-      "name": {
-        "first": "Margerie",
-        "last": "Wilkinson"
-      },
-      "company": "GLASSTEP",
-      "email": "margie.wilkinson@glasstep.me",
-      "phone": "+1 (843) 409-2958",
-      "address": "573 Pineapple Street, Farmington, Georgia, 3306",
-      "about": "Cupidatat quis non ipsum tempor voluptate sunt. Elit tempor cupidatat consectetur dolore sit anim do excepteur occaecat occaecat quis. Sit ad exercitation veniam Lorem Lorem exercitation dolor. Fugiat occaecat labore sunt sit velit quis.",
-      "registered": "Wednesday, April 29, 2015 6:10 AM",
-      "latitude": "-0.579018",
-      "longitude": "38.199105",
-      "tags": [
-        "nulla",
-        "sit",
-        "do",
-        "aliquip",
-        "ullamco"
-      ],
-      "range": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Madeline Robinson"
-        },
-        {
-          "id": 1,
-          "name": "Hutchinson Weber"
-        },
-        {
-          "id": 2,
-          "name": "Rosanne Hogan"
-        }
-      ],
-      "greeting": "Hello, Margie! You have 5 unread messages.",
-      "favoriteFruit": "banana"
-    },
-    {
       "id": 5,
       "guid": "1e5a0f2e-4f79-49ad-a248-1c9a43e13828",
       "isActive": false,
@@ -5435,90 +5379,24 @@
     {
       "id": 101,
       "name": {
-        "first": "Roberts",
-        "last": "Julia"
-      },
-      "isActive": false,
-      "age": "52",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "id": 102,
-      "name": {
-        "first": "Susan",
-        "last": "Sarandon"
-      },
-      "isActive": false,
-      "age": "62",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "id": 103,
-      "name": {
         "first": "Lóránt",
         "last": "Lajos"
       },
       "isActive": "true",
-      "age": "30",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "id": 104,
-      "name": {
-        "first": "Hopkins",
-        "last": "Anthony"
-      },
-      "isActive": false,
-      "age": "65",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "id": 105,
-      "name": {
-        "first": "Godzilla",
-        "last": ""
-      },
-      "isActive": false,
-      "age": 18,
-      "email": "",
-      "phone": ""
-    },
-    {
-      "id": 106,
-      "name": {
-        "first": "Popkins",
-        "last": "Mary"
-      },
-      "isActive": false,
-      "age": "50",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "id": 107,
-      "name": {
-        "first": "Lajos-Kovács",
-        "last": "Krisztina"
-      },
-      "isActive": "true",
-      "age": "43",
-      "email": "kovacskrisztinamonika@gmail.com",
+      "age": "36",
+      "email": "trojanosall@gmail.com",
       "phone": "+36204523333"
     },
     {
-      "id": 108,
+      "id": 102,
       "name": {
-        "first": "Dániel",
-        "last": "Szabó"
+        "first": "Krisztina",
+        "last": "Lajos-Kovács"
       },
-      "isActive": false,
-      "age": "30",
-      "email": "",
-      "phone": ""
+      "isActive": "true",
+      "age": 18,
+      "email": "kovacskrisztinamonika@gmail.com",
+      "phone": "+36303568545"
     }
   ]
 }

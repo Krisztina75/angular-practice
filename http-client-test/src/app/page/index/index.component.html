@@ -1,8 +1,65 @@
-<div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
-    content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+<div class="card-deck">
+  <div class="card">
+    <img src="https://img.icons8.com/color/240/000000/conference.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Number of users</h5>
+      <p class="card-text">{{ numberOfUsers() }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.icons8.com/color/240/000000/reviewer-female.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Number of active users</h5>
+      <p class="card-text">{{ numberOfActiveUsers() }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.icons8.com/color/240/000000/remove-user-female.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Number of non active users</h5>
+      <p class="card-text">{{ numberOfNonActiveUsers() }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck">
+  <div class="card">
+    <img src="https://img.icons8.com/color/240/000000/money-bag.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sum of users' balance</h5>
+      <p class="card-text"></p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.icons8.com/color/240/000000/apple.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Favourite fruit is apple</h5>
+      <p class="card-text">{{ favouriteFruitApple() }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.icons8.com/color/240/000000/strawberry.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Favourite fruit is strawberry</h5>
+      <p class="card-text">{{ favouriteFruitStrawberry() }}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
 </div>

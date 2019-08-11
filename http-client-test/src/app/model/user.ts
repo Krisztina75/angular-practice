@@ -8,5 +8,6 @@ export class User {
   age: number = 18;
   email: string = '';
   phone: string = '';
-
+  balance: string = '';
+  favoriteFruit: string = '';
 }

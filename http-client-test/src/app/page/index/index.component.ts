@@ -12,7 +12,6 @@ import { Subscription } from 'rxjs';
 export class IndexComponent implements OnInit {
   userList: User[] = [];
   userSubscription: Subscription;
-  sum: number = 0;
 
   constructor(private userService: UserService) {
   }
@@ -39,12 +38,17 @@ export class IndexComponent implements OnInit {
     ).length
   }
 
-  // sumOfUsersBalance() {
-  //   for (let i = 0; i < this.userList.length; i += 1) {
-  //     this.sum += parseFloat(this.userList[i].balance.replace(/$/g, '').replace(/,/g, ''))
-  //   }
-  //   return this.sum;
-  // }
+  sumOfUsersBalance() {
+    let sum = 0;
+    for (let i = 0; i < this.userList.length; i += 1) {
+      if (this.userList[i].balance) {
+        console.log(this.userList[i].balance);
+        let balance = parseInt(this.userList[i].balance.replace(/\$/g, '').replace(/\,/g, ''))
+        sum += balance;
+      }
+    }
+    return sum;
+  }
 
   favouriteFruitApple() {
     return this.userList.filter(

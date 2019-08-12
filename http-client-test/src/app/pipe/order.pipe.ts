@@ -12,6 +12,9 @@ export class OrderPipe implements PipeTransform {
     baseArray.sort((a, b) => {
       if (typeof a[key] === 'number') {
         return (a[key] - b[key]) * direction;
+      }
+      if (key === 'name') {
+        return (a[key].last.toString() as string).localeCompare(b[key].last.toString()) * direction;
       } else {
         return (a[key].toString() as string).localeCompare(b[key].toString()) * direction;
       }

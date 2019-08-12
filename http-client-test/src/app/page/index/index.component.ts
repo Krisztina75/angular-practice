@@ -41,7 +41,7 @@ export class IndexComponent implements OnInit {
 
   // sumOfUsersBalance() {
   //   for (let i = 0; i < this.userList.length; i += 1) {
-  //     this.sum += parseFloat(this.userList[i].balance.replace("$", '').replace(",", ''))
+  //     this.sum += parseFloat(this.userList[i].balance.replace(/$/g, '').replace(/,/g, ''))
   //   }
   //   return this.sum;
   // }
